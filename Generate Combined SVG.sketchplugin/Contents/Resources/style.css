@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+}
+.header {
+    background: #303b56;
+    padding: 22px 0
+}
+.header h1 {
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: serif;
+} 
+.wrapper > div {
+    flex-grow: 1;
+    width: 20%;
+    text-align: center;
+    overflow: hidden;
+    padding: 30px 0;
+    border: 1px solid #f7f7f7;
+}
+.wrapper > div.lightbg{
+    background: #ffffff;
+    color: #5a5a5a;
+}
+.wrapper > div.darkbg {
+    background: #312e2e;
+    color: #fff;
+}
+.wrapper > div svg {
+    width: 48px;
+    height: 48px;
+    padding: 50px 20px;
+}
+.wrapper > div > span {
+    display: block;
+    white-space: normal;
+    padding: 0 20px;
+    font-size: 14px;
+    font-family: monospace;
+}
