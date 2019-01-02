@@ -1,7 +1,7 @@
 {
     "name" : "Composite SVG",
     "identifier" : "com.sketchapp.neo.compositesvg",
-    "version" : "0.1",
+    "version" : "0.2",
     "description" : "Add all artboards in the page as a symbol in a single composite SVG",
     "homepage": "https://github.com/alanfraneo/svg-composite",
     "appcast": "https://raw.githubusercontent.com/alanfraneo/svg-composite/master/appcast.xml",
